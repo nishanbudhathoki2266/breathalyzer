@@ -8,7 +8,6 @@ This project uses a Raspberry Pi, an MQ 3 sensor, and an LED to create a simple 
 - [Usage](#usage)
 - [Adjusting Sensitivity](#adjusting-sensitivity)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Hardware Requirements
 1. Raspberry Pi (any model with GPIO pins)
@@ -27,4 +26,10 @@ This project uses a Raspberry Pi, an MQ 3 sensor, and an LED to create a simple 
 3. Download the breathalyzer Python script.
 
 ## Usage
-1. Run "python breathalyzer.py"
+1. Go inside the root directory and run "python breathalyzer.py"
+
+## Adjusting Sensitivity
+1. The breathalyzer script includes a potentiometer adjustment for sensor sensitivity. You may adjust accordingly.
+
+## Contributing
+1. Contributions are welcome! Please fork the repository and create a pull request with any improvements or additional features.
